@@ -1,10 +1,10 @@
-## Business game in Python
+# Business game in Python
 
 This is a business game inspired from monopoly in which we use stock instead of property.
 
 There are multiple stocks present on the board you can strategically decide to buy or ignore them to maximize your winning chances. This is a multiplayer game and allows from 2 to 4 users to play at one time.
 
-# How the game works
+## How the game works
 
 There is a die in the game which when rolled will determine how many steps you will move forward. Then you might land on a stock. If the stock is not owned by anyone yet then you can choose to buy the stock. Buying the stock has an advantage, Whenever someone else lands on your stock they will have to pay you some amount as a dividend.At the end of the game, the stocks bought by you are sold and you get back the price of the stock.
 
@@ -12,7 +12,7 @@ If you land on a special token like chest, then your fate will depend on your la
 
 At the end whoever has the most amount of money wins the game. The game ends when someone has a negative balance or when 250 moves are completed whichever happens first
 
-# Unique mechanisms
+## Unique mechanisms
 
 Other than the stocks there exists certain special special blocks which you can’t buy or sell but affects how you play the game. These can be:-
 
